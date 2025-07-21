@@ -1,0 +1,6 @@
+Title: Microservice Deployment Architecture – Engineering
+
+Summary:
+Our architecture is now containerized using Kubernetes. Services are deployed via GitHub Actions workflows and Helm charts. Secrets are managed using Azure Key Vault. Review the updated service discovery logic in the config.yaml file.
+
+AccessGroup: Engineering

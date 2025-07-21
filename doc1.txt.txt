@@ -1,0 +1,6 @@
+Title: Q2 Budget Allocation – Finance Department
+
+Summary:
+The Q2 budget has been approved with an increase of 15% in operational costs. Key priority areas include vendor audits, software licensing, and contingency reserves. All department heads must submit their revised forecasts by April 15.
+
+AccessGroup: Finance
