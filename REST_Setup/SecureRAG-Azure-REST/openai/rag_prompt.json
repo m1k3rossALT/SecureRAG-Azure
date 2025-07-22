@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that answers questions using the provided documents."
+    },
+    {
+      "role": "user",
+      "content": "Use the following document:\n\nTitle: Microservice Deployment Architecture \u2013 Engineering\n\nSummary:\nOur architecture is now containerized using Kubernetes. Services are deployed via GitHub Actions workflows and Helm charts. Secrets are managed using Azure Key Vault.\n\nQuestion: What is the deployment strategy?"
+    }
+  ],
+  "temperature": 0.3,
+  "max_tokens": 400
+}

@@ -1,0 +1,15 @@
+{
+  "azure_openai": {
+    "endpoint": "https://your-openai-resource.openai.azure.com/",
+    "api_key": "your-azure-openai-key",
+    "deployment_name": "your-deployment-name"
+  },
+  "azure_search": {
+    "endpoint": "https://your-search-service.search.windows.net",
+    "index_name": "rag-index",
+    "api_key": "your-azure-search-key"
+  },
+  "search_filter": {
+    "group_id": "Engineering"
+  }
+}

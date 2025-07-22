@@ -1,0 +1,15 @@
+{
+  "name": "rag-indexer",
+  "dataSourceName": "rag-data-source",
+  "targetIndexName": "rag-index",
+  "schedule": {
+    "interval": "PT1H",
+    "startTime": "2025-07-22T00:00:00Z"
+  },
+  "parameters": {
+    "configuration": {
+      "parsingMode": "default",
+      "dataToExtract": "contentAndMetadata"
+    }
+  }
+}

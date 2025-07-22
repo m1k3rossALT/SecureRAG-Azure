@@ -1,0 +1,14 @@
+{
+  "name": "rag-data-source",
+  "type": "azureblob",
+  "credentials": {
+    "connectionString": "<your-storage-connection-string>"
+  },
+  "container": {
+    "name": "documents"
+  },
+  "dataChangeDetectionPolicy": {
+    "@odata.type": "#Microsoft.Azure.Search.HighWaterMarkChangeDetectionPolicy",
+    "highWaterMarkColumnName": "_ts"
+  }
+}
